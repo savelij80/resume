@@ -1,0 +1,274 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 1280px;
+    height: 1399;
+    background-color: rgb(229, 229, 229);
+}
+
+/* Общий блок */
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    padding: 40px 40px;
+}
+
+.main_content {
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 105px 90px;
+}
+
+/* About */
+.About {
+    margin-bottom: 60px;
+}
+
+.about_position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.about_name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.about_discription {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    width: 400px;
+}
+
+/* Progect */
+.Projects {
+   margin-bottom: 50px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.project_aitom {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project_a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.project_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 10px;
+}
+
+.project_b {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project_lists {
+    padding: 0;
+    margin-left: 15px;
+}
+
+/* Work */
+.Work {
+  margin-bottom: 40px; 
+}
+
+.work_position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.work_a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.data {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.work_list {
+    padding: 0;
+    margin-left: 15px;
+}
+
+.work_list-itom {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* Education */
+
+
+.Education_edishion {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+.deportment {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* Saidbar */
+.Saidbar {
+    background-color: #1E2939;
+    width: 370px;
+    padding-top: 40px;
+}
+
+img {
+    margin: 31px auto;
+}
+
+.foto {
+    width: 370px;
+    margin-bottom: 50px;
+
+}
+
+.saidbat_title {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+}
+
+.Contact, .Tech_Skills, .Soft_Skills {
+    margin-left: 40px;
+}
+
+.Contact {
+    margin-bottom: 50px;
+
+}
+
+.Tech_Skills {
+    margin-bottom: 45px;
+}
+
+.Tech_Skills_lists {
+    color: white;
+    padding: 0;
+    margin-left: 17px;
+}
+
+.Tech_Skills_text {
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+.Tech_Skills_aitom {
+    color: #FB6D3A;
+}
+
+.Soft_Skills_lists {
+    color: white;
+    padding: 0;
+    margin-left: 17px;
+}
+
+.Soft_Skills_aitom {
+    color: #FB6D3A; 
+}
+
+.Soft_Skills_text {
+    color: white; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px; 
+}
+
+
+.contact_type {
+    color: white;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.contact_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #05080D;
+}
+
